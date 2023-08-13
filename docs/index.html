@@ -2,50 +2,125 @@
 <html>
 <head>
     <title>Allura Cosmetics</title>
-</head>
-<body style="font-family: 'Arial', sans-serif; margin: 0; padding: 0; background-color: #f7f0f6; color: #6b5362;">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f8e0f7;
+            color: #6b5362;
+        }
 
-    <header style="background-color: #ff99cc; text-align: center; padding: 20px;">
-        <h1 style="font-size: 36px;">Welcome to Allura Cosmetics</h1>
+        header {
+            background-color: #ff69b4;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: #ff69b4;
+            overflow: hidden;
+        }
+
+        nav li {
+            float: left;
+        }
+
+        nav a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 40px;
+            text-align: center;
+        }
+
+        h2 {
+            color: #ff69b4;
+            font-size: 28px;
+            margin-bottom: 15px;
+        }
+
+        .service {
+            display: flex;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+
+        .service img {
+            width: 180px;
+            margin-right: 30px;
+            border-radius: 10px;
+            border: 5px solid #ff69b4;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .service p {
+            font-size: 18px;
+            line-height: 1.4;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #ff69b4;
+            padding: 20px;
+            color: white;
+            font-size: 14px;
+            letter-spacing: 1px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 style="font-size: 42px;">Welcome to Allura Cosmetics</h1>
     </header>
 
-    <nav style="background-color: #ff99cc;">
-        <ul style="list-style-type: none; margin: 0; padding: 0; overflow: hidden;">
-            <li style="float: left;"><a href="#" style="display: block; color: white; text-align: center; padding: 14px 16px; text-decoration: none;">Home</a></li>
-            <li style="float: left;"><a href="#" style="display: block; color: white; text-align: center; padding: 14px 16px; text-decoration: none;">About</a></li>
-            <li style="float: left;"><a href="#" style="display: block; color: white; text-align: center; padding: 14px 16px; text-decoration: none;">Services</a></li>
-            <li style="float: left;"><a href="#" style="display: block; color: white; text-align: center; padding: 14px 16px; text-decoration: none;">Contact</a></li>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
         </ul>
     </nav>
 
-    <main style="padding: 20px;">
-
-        <section style="margin-bottom: 30px;">
+    <main>
+        <section>
             <h2>About Us</h2>
-            <p style="font-size: 18px;">Welcome to Allura Cosmetics, where beauty meets innovation...</p>
+            <p>Welcome to Allura Cosmetics, where beauty meets innovation and creativity is the heart of our brand. Step into a world of vibrant colors and transformative beauty...</p>
         </section>
 
-        <section style="margin-bottom: 30px;">
+        <section>
             <h2>Our Services</h2>
-            <div class="service" style="display: flex; align-items: center; margin-bottom: 20px;">
-                <img src="images/f51221b8cba93f6be34ad721d7a7d5ab.jpg" alt="Customized Beauty Consultations" style="width: 150px; margin-right: 20px;">
-                <p style="font-size: 16px;">Experience our personalized Customized Beauty Consultations...</p>
+            <div class="service">
+                <img src="images/f51221b8cba93f6be34ad721d7a7d5ab.jpg" alt="Customized Beauty Consultations">
+                <p>Experience the magic of our personalized Customized Beauty Consultations, tailored just for you...</p>
             </div>
-            <div class="service" style="display: flex; align-items: center; margin-bottom: 20px;">
-                <img src="images/6baab77e83b6ef796e4726ac21224f87.jpg" alt="Allura Beauty Club Subscription" style="width: 150px; margin-right: 20px;">
-                <p style="font-size: 16px;">Join the exclusive Allura Beauty Club Subscription...</p>
+            <div class="service">
+                <img src="images/6baab77e83b6ef796e4726ac21224f87.jpg" alt="Allura Beauty Club Subscription">
+                <p>Join the exclusive Allura Beauty Club Subscription and unlock a world of beauty treasures...</p>
             </div>
-            <div class="service" style="display: flex; align-items: center; margin-bottom: 20px;">
-                <img src="images/2DSC_0511-copy.jpg" alt="Virtual Beauty Workshops" style="width: 150px; margin-right: 20px;">
-                <p style="font-size: 16px;">Immerse yourself in our interactive Virtual Beauty Workshops...</p>
+            <div class="service">
+                <img src="images/2DSC_0511-copy.jpg" alt="Virtual Beauty Workshops">
+                <p>Immerse yourself in our interactive Virtual Beauty Workshops and master the art of makeup...</p>
             </div>
         </section>
-
     </main>
 
-    <footer style="text-align: center; background-color: #ff99cc; padding: 10px; position: absolute; bottom: 0; width: 100%; color: white;">
+    <footer>
         <p>&copy; 2023 Allura Cosmetics. All rights reserved.</p>
     </footer>
-
 </body>
 </html>
